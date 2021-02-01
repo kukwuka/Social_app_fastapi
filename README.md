@@ -7,5 +7,6 @@ alembic upgrade head
 
 start uvicorn
 ```bash
+cd sql_app
 uvicorn main:app --reload
 ```
